@@ -5,10 +5,26 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    settings:{
+      starttime: undefined,
+      lang: undefined,
+    }
   },
-  mutations: {
+  getters:{//읽을때
+    savedSettings: (state) => {
+      return state.settings;
+    }
+
   },
-  actions: {
+  mutations: {//쓸때
+    saveSettings: (state, payLoad) =>{
+      state.settings = payLoad;
+    }
+  },
+  actions: {//쓸때
+    saveSettings: ( {commit}, payLoad) =>{
+      commit('saveSettings', payLoad);
+    }
   },
   modules: {
   }
