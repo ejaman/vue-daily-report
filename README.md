@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # new-daily-report
 
 ## Project setup
@@ -22,3 +23,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# vue-daily-report
+>>>>>>> 0185e753db85cbd2c00843cc7cf8fba66aa3083c
