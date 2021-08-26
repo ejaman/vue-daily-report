@@ -1,5 +1,9 @@
 <<<<<<< HEAD
 # new-daily-report
+완성된 뷰 데일리 리포트 앱은 아래 링크를 통해 확인 가능합니다.<br>
+https://new-daily-report-d0f23.firebaseapp.com/
+
+
 
 ## Project setup
 ```
