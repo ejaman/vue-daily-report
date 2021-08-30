@@ -20,6 +20,15 @@
             <option value="en">영어</option>
           </select>
         </fieldset>
+
+          <fieldset>
+          <label for="color">Theme </label>
+          <select id="colortheme" v-model="settings.color">
+            <option value="1">dark mode</option>
+            <option value="2">light mode</option>
+          </select>
+        </fieldset>
+
         <fieldset class="submit">
           <button type="submit" class="save">save</button>
         </fieldset>
@@ -61,7 +70,8 @@ export default {
     return {
       settings: {
         starttime: '08:00',
-        lang: 'ko'
+        lang: 'ko',
+        color:'1'
       }
     }
   },
